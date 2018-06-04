@@ -1,0 +1,9 @@
+package com.integrate.dogservice.rest;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DogRepository extends CrudRepository<DogRecord, Long> {
+
+}
